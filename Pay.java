@@ -324,7 +324,7 @@ public class Pay {
     @PrimaryKey(autoGenerate = true)
     @NonNull
     @ColumnInfo(name = "payId")
-    private int mId;
+    private Double mId;
 
     @Nullable
     @ColumnInfo(name = "payDescription")
